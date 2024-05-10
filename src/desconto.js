@@ -1,6 +1,6 @@
 function calcDesconto(quantidade) {
     if (quantidade <= 10) {
-        return 0;  // sem desconto
+        return 0;  // 0% de desconto
     } else if (quantidade <= 20) {
         return 0.10;  // 10% de desconto
     } else if (quantidade <= 50) {
